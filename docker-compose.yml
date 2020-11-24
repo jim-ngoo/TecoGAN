@@ -1,0 +1,7 @@
+version: '3'
+services:
+  tecogan:
+      image: tecogan_image
+      volumes:
+      - .:/TecoGAN
+      command: python3 runGan.py 1
